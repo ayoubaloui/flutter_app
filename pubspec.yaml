@@ -1,0 +1,52 @@
+name: test_flutter_app
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+  #package for responsive design
+  flutter_screenutil: ^5.9.0
+
+  #package for icons 
+  font_awesome_flutter: ^10.6.0
+
+  #package for fonts 
+  google_fonts: ^6.1.0
+
+  #firebase packages
+  firebase_auth: ^4.15.3
+  firebase_core: ^2.24.2
+  firebase_storage: ^11.5.6
+  cloud_firestore: ^4.13.6
+
+  #package for picking an image 
+  image_picker: ^1.0.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  
+
+flutter:
+
+
+  uses-material-design: true
+  assets:
+  #this is our folder for image assets
+    - assets/
+
+
